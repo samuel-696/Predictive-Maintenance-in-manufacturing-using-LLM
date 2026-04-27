@@ -1,0 +1,59 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Predictive Maintenance AI — Python Dependencies
+# Last updated: April 2026
+#
+# GPU INSTALL (CUDA 12.1 — recommended for RTX 30/40 series):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#   pip install -r requirements.txt
+#
+# GPU INSTALL (CUDA 12.4 — for RTX 40 series / H100):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+#   pip install -r requirements.txt
+#
+# CPU ONLY:
+#   pip install torch torchvision torchaudio
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+# ── Core ML / Deep Learning ───────────────────────────────────────────────────
+# NOTE: Install PyTorch separately using the commands above BEFORE this file
+# torch is listed here only so pip doesn't downgrade it
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# ── Reinforcement Learning ────────────────────────────────────────────────────
+gymnasium>=1.0.0
+stable-baselines3>=2.3.2
+sb3-contrib>=2.3.0               # Extra SB3 algorithms (RecurrentPPO, etc.)
+shimmy>=2.0.0                    # Gymnasium compatibility shim
+
+# ── Data Science ──────────────────────────────────────────────────────────────
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.5.0
+scipy>=1.13.0
+joblib>=1.4.2
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.9.0
+seaborn>=0.13.2
+plotly>=5.22.0
+
+# ── Streamlit Dashboard ───────────────────────────────────────────────────────
+streamlit>=1.36.0
+streamlit-extras>=0.4.3          # Extra UI widgets
+watchdog>=4.0.1                  # Faster Streamlit file watching
+
+# ── LLM / API ─────────────────────────────────────────────────────────────────
+anthropic>=0.28.0
+openai>=1.35.0
+python-dotenv>=1.0.1
+tiktoken>=0.7.0                  # Token counting for OpenAI models
+httpx>=0.27.0                    # Async HTTP (used by both SDKs)
+
+# ── Progress / Utilities ──────────────────────────────────────────────────────
+tqdm>=4.66.4
+rich>=13.7.1                     # Beautiful terminal output
+typer>=0.12.3                    # CLI argument parsing
