@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔧 Predictive Maintenance AI
+# 🔧 Predictive Maintenance in manufacturing using LLM
 
 ### AI-Powered Machine Health Monitoring & Predictive Maintenance Scheduling
 
