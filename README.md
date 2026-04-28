@@ -41,7 +41,7 @@ Proximal Policy Optimization agent trained via reinforcement learning to select 
 AI-powered natural language explanations of every maintenance decision. Supports **Google Gemini**, **OpenAI**, and **Anthropic**, with automatic rule-based fallback.
 
 ### 📊 Real-Time Dashboard
-Dark-themed Streamlit dashboard with glassmorphism UI, interactive Plotly charts, KPI cards, and a custom CSV upload feature for external datasets.
+Streamlit dashboard with interactive Plotly charts, KPI cards, and a custom CSV upload feature for external datasets.
 
 </td>
 </tr>
