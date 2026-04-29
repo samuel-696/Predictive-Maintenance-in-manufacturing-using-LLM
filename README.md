@@ -179,7 +179,6 @@ python pipeline.py
 streamlit run app.py
 ```
 
-The dashboard opens at **http://localhost:8501** with the full interactive interface.
 
 ---
 
